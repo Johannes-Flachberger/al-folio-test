@@ -5,7 +5,7 @@ date: 2025-02-21
 description: A collection of basic techiques, procedures and tools for performing privilege escalation on windows.
 tags: theory windows privesc 
 categories: pentesting
-featured: true
+featured: false
 toc:
   sidebar: left
 ---
