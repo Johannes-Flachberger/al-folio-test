@@ -1063,12 +1063,13 @@ progress::-moz-progress-bar {
 
 /* Table of Contents */
 nav[data-toggle="toc"] {
-  top: 5rem;
-
-  .nav .nav > li > a {
-    font-size: 1rem;
+  top: 5rem; 
+  .nav {
+    display: block;
+    .nav > li > a {
+      font-size: 1rem;
+    }
   }
-
   .nav > li > a {
     color: var(--global-text-color);
     font-size: 1rem;
