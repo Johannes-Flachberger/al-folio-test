@@ -2,6 +2,8 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <!-- Social Icons -->
+      <div class="navbar-brand social">{% include social.liquid %}</div>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -20,10 +22,8 @@
             {{- site.title -}}
           {% endif %}
         </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+    
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -129,7 +129,6 @@
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
