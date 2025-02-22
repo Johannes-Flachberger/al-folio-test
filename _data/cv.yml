@@ -1,0 +1,121 @@
+- title: General
+  type: map
+  contents:
+    - name: Full Name
+      value: Johannes Flachberger
+    - name: Date of Birth
+      value: 19th May 2000
+    - name: Languages
+      value: German (native), English (fluent), Spanish
+    - name: Based in
+      value: Vienna, Austria
+
+- title: Work
+  type: time_table
+  contents:
+    - title: Systems Engineer
+      institution: in-tech GmbH, Vienna, Austria
+      year: 02/2022 - today
+      description:
+        - Security Management for safety-critical railway systems based on IEC 62443
+        - Threat and Risk Assessments for OT systems, Security Architecture and Requirements engineering
+        - Sofware Development for embedded systems
+    - title: Intern Systems Engineering
+      institution: in-tech GmbH, Vienna, Austria
+      year: 09/2021 - 01/2022
+      description: 
+        - "Internship: Systems engineering in railway sector with focus on software development and cybersecurity" 
+    - title: "Summer Job: Employee at the grain harvest"
+      institution: Raiffeisen Lagerhaus Wiener Becken, Guntramsdorf, Austria
+      year: 07/2020 - 08/2020
+      description: 
+        - "Field of activity: Quality assurance and categorisation of incoming grain deliveries"
+    - title: Volunteer in educational work for street children
+      institution: Proyecto Salesiano Ecuator, Quito, Ecuador
+      year: 08/2018 - 09/2019
+      description:
+        - For 10 months I volunteered in Quito, Ecuador to offer street children a "big brother" who helps them with their schoolwork and everyday life. A unique experience that also changed my life.
+    - title: "Summer Job: Employee at the grain harvest"
+      institution: Raiffeisen Lagerhaus Wiener Becken, Ebreichsdorf, Austria
+      year: 07/2015 - 07/2015
+      description: 
+        - "Field of activity: receiving and loading of grain deliveries at the storage facility"
+        
+- title: Education
+  type: time_table
+  contents:
+    - title: MSc. Cyber Security and Resilience
+      institution: FH St. Pölten - University of Applied Sciences, St. Pölten, Austria
+      year: 09/2022 - 10/2024
+      description:
+        - title: "Core Topics:"
+          contents:
+            - Network Security
+            - Software Security
+            - Digital Forensics
+            - Software & Application Security
+            - Penetration Testing
+            - Information Security and Risk Management
+        - title: "Optional Subjects:"
+          contents:
+            - OT fundamentals and security
+            - Basic exploit development
+            - Pentesting Mentoring
+    - title: BSc. Mechatronik & Robotik
+      institution: University of Applied Sciences Technikum Wien 
+      year: 09/2019 - 07/2022
+      description:
+        - "Bachelor Thesis: Digital Twin of an Industrial Robot: Use Case for application in SCADA"
+
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Udemy - Practical Industrial Control System Penetration Testing
+      year: 12/2023
+      description:
+        - <a href="https://www.udemy.com/certificate/UC-578d5370-a07d-42ff-a206-709ab5652a44/">Show certificate</a>
+    - title: CompTIA Security+
+      year: 10/2023
+      description:
+        - <a href="https://www.credly.com/badges/21af3e19-9102-4a44-a227-6b916386fbc5/public_url">Show certificate</a>
+    - title: TryHackMe - Jr Penetration Tester Learning Path
+      year: 04/2022
+      description:
+        - 'Course Link: <a href="https://tryhackme.com/path/outline/jrpenetrationtester">tryhackme.com</a>'
+        - "Certificate ID: THM-XFU8H3VV9K"
+    - title: TryHackMe - Complete Beginner Learning Path
+      year: 03/2022
+      description:
+        - 'Course Link: <a href="https://tryhackme.com/path/outline/beginner">tryhackme.com</a>'
+        - "Certificate ID: THM-JSQLTT1VJH"
+
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Security
+      items:
+        - 'Product Security Management using IEC 62443'
+        - Threat Modeling and Risk Analysis
+        - <b>Secure Development Lifecycle:</b> Specification, Design, Implementation, Testing, Deployment, Decomissioning
+        - <b>Pentesting:</b> Webhacking, Network Exploitation, Privilege Escalation (Linux & Windows)
+        - <b>Networking:</b> Network Administration, Network Security, TCP/IP, Industrial Network Protocols, Bus Systems
+
+    - title: Technologies
+      items:
+        - <b>Languages:</b> C, C++, Python, Bash
+        - <b>Tools:</b> vscode, kali linux
+        - <b>Platforms:</b> Windows, Linux, Docker, Openstack
+        - <b>Industrial Automation:</b> SPS Programming, ROS, OPC UA
+    - title: Other
+      items:
+        - - <b>Intercultural communication:</b> work experience in south america
+
+- title: Interests
+  type: list
+  contents:
+    - <b>Music:</b> Trumpet playing - mainly jazz
+    - <b>Sports:</b> Bouldering, Jogging
+    - <b>Tinkering & DIY:</b> Robotics, DIY Audio, IT stuff,...
+    - <b> Books:</b> How to hack like a ghost - Sparc Flow | The 7 Habits of highly effective People - Stephen R. Covey | The Lord of the Rings - J.R.R Tolkien
+

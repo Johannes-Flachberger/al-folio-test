@@ -7,14 +7,15 @@ first_name: Johannes
 middle_name:
 last_name: Flachberger
 contact_note: >
-  
+  Why not connect on linkedin?
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Johannes Flachberger's personal blog
 footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: portfolio-website, blog, cyber-security # add your own keywords or leave empty
+keywords: cv, blog, cyber-security # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 👾 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: JF # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://johannes-flachberger.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -77,8 +78,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Welcome to my blog! # blog_name will be displayed in your blog page
-blog_description: I am Johannes Flachberger, a security engineer focusing on OT and critical infrastructure.
+blog_name: Hi! # blog_name will be displayed in your blog page
+blog_description: I am Johannes, a security engineer focusing on OT and critical infrastructure. Here you can read through a random collection of topics that cross my way - from simple to complex. 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -233,8 +234,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["OT", "pentesting"] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: ["theory"] # these tags will be displayed on the front page of your blog
+display_categories: [pentesting] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
