@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-whoami",
+    title: "whoami",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/resume/";
           },
-        },{
+        },{id: "post-xml-external-entity-xxe-vulnerabilities",
+      
+        title: "xml external entity (XXE) vulnerabilities",
+      
+      description: "xml external entity (XXE) vulnerabilities",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/xml-external-entity/";
+        
+      },
+    },{id: "post-basic-windows-privilege-escalation",
+      
+        title: "Basic Windows privilege escalation",
+      
+      description: "A collection of basic techiques, procedures and tools for performing privilege escalation on windows.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/windows-privesc/";
+        
+      },
+    },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
