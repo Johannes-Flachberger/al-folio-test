@@ -17,8 +17,8 @@ xml files are generated based on user input without input validation
 1.  in-band XXE: attacker receives immediate response to payload
 2.  out-of-band XXE: no immediate respone, output has to be reflected to some file or server
 
-## Examples
-hort xml file to read the contents of /etc/passwd
+# Examples
+use xml file to read the contents of /etc/passwd
 ``` xml
 <?xml version="1.0" ?>
 <!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
@@ -36,11 +36,12 @@ sometimes, the xml version has to be downgraded to a certain encoding:
 	<content>Here is some content...</content>
 </entry>
 ```
-### Impact
+# Impact
 - attackers can interact with backand or external systems
 - readout of local files
 - DoS attacks
-### Defense
+
+# Defense
 - use secure and updated xml-parser and SOAP framework
 - deactivate parsing of DTDs (Document type definitions)
 - validate data that is insertedinto an xml file
